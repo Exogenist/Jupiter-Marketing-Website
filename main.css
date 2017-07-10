@@ -1,0 +1,201 @@
+a.navbar-brand {
+    padding: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #677589;
+}
+
+.fade-in {
+    -webkit-animation: fadein 2s;
+    /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 2s;
+    /* Firefox < 16 */
+    -ms-animation: fadein 2s;
+    /* Internet Explorer */
+    -o-animation: fadein 2s;
+    /* Opera < 12.1 */
+    animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Firefox < 16 */
+
+@-moz-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Safari, Chrome and Opera > 12.1 */
+
+@-webkit-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* Internet Explorer */
+
+@-ms-keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+}
+.nav-transition {
+    height: 70px;
+    /*    background-color: white;*/
+    /*    For some reason the transition property doesn't work in this class*/
+    /*    -webkit-transition: height 2s, background-color 2s, box-shadow 2s;*/
+    /*
+    -moz-transition: height 2s, background-color 2s, box-shadow 2s;
+    -o-transition: height 2s, background-color 2s, box-shadow 2s;
+*/
+    /*    transition: height 2s, background-color 2s, box-shadow 2s;*/
+}
+.navbar-default {
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    /*    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);*/
+
+    -webkit-transition: height 0.5s, background-color 0.5s, box-shadow 0.5s;
+    transition: height 0.5s, background-color 0.5s, box-shadow 0.5s;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+.blue {
+    color: #445673;
+}
+.blue:hover {
+    color: #9b66a5;
+}
+.header {
+    /* The image used */
+
+    background-image: url("img/header.jpg");
+    /* Set a specific height */
+
+    height: 800px;
+    /* Create the parallax scrolling effect */
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slogan {
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #8598b5;
+}
+.title {
+    color: #677589;
+    font-size: 5.5rem;
+}
+.header-content {
+    max-width: 780px;
+    text-align: center;
+    padding-top: 190px;
+    margin: auto;
+}
+.section-1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.heading {
+    color: #677589;
+    font-size: 3rem;
+}
+.sub-heading {
+    color: #8598b5;
+    font-size: 2rem;
+}
+.account-icon {
+    padding-top: 30px;
+    width: 200px;
+    margin: auto;
+}
+.account-size {
+    width: 230px;
+}
+@media (max-width: 768px) {
+    .white-bck {
+        background-color: white;
+    }
+}
+.section-2 {
+    background-color: #eaf2f4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.dimention {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.market-icon {
+    width: 200px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.left-align {
+    text-align: right;
+}
+
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
