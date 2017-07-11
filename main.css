@@ -292,3 +292,11 @@ body {
     color: #fff;
     padding: 15px;
 }
+.circle-adj {
+    height: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 130px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+}
