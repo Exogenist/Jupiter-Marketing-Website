@@ -262,16 +262,18 @@ body {
     background-image: url("img/stratbgbig.jpg");
 
     /* Full height */
-    height: 400px;
+    min-height: 400px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+
+    padding-bottom: 90px;
 }
 .strat-adj {
-    padding-top: 90px;
+    margin-top: 90px;
     color: #ccdfff;
 /*    font-size: 2rem;*/
     text-transform: uppercase;
@@ -279,4 +281,13 @@ body {
 
 .cont-adj p {
     color: #b9cbea;
+}
+.strat-title {
+    background-color: #0b95e5;
+}
+.sect-title-adj {
+        text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px;
 }
