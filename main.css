@@ -271,8 +271,12 @@ body {
     background-size: cover;
 }
 .strat-adj {
-    padding-top: 30px;
+    padding-top: 90px;
     color: #ccdfff;
     font-size: 3rem;
     text-transform: uppercase;
+}
+
+.cont-adj p {
+    color: #b9cbea;
 }
