@@ -258,7 +258,7 @@ body {
 }
 
 .section-3 {
-        /* The image used */
+    /* The image used */
     background-image: url("img/stratbgbig.jpg");
 
     /* Full height */
@@ -266,7 +266,13 @@ body {
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.strat-adj {
+    padding-top: 30px;
+    color: #ccdfff;
+    font-size: 3rem;
+    text-transform: uppercase;
 }
