@@ -1,5 +1,3 @@
-
-
 # Jupiter Sales and MArketing 
 Commision website design for a client. 
 
