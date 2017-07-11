@@ -1,4 +1,4 @@
-# Jupiter Sales and MArketing 
+# Jupiter Sales and Marketing 
 Commision website design for a client. 
 
 ## TO DO:
