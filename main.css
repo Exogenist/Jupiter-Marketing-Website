@@ -242,3 +242,8 @@ body {
 .i-adj {
     color: #d5d9e0;
 }
+
+.cent {
+    margin: auto;
+    width: 300px;
+}
