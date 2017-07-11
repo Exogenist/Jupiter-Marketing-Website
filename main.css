@@ -254,4 +254,19 @@ body {
 
 .sect2-adj {
     margin-bottom: 40px;
+    background-image:
+}
+
+.section-3 {
+        /* The image used */
+    background-image: url("img/dipesh-kc-70383.jpg");
+
+    /* Full height */
+    height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
