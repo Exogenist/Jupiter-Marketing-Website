@@ -2,8 +2,10 @@
 Commision website design for a client. 
 
 ## TO DO:
-- [ ] add strategy section, testiomianls and contact us. 
-- [ ] Turn into wordpress theme and use wordpress cms
+- [ x ] add strategy section. 
+- [ ] add testimonials section. 
+- [ ] add contact Us section.
+- [ ] Turn into wordpress theme and use wordpress cms.
 
 ### Author
 Swainson Holness
