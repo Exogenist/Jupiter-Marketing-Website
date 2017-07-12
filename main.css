@@ -231,6 +231,12 @@ body {
     }
 }
 
+@media (max-width: 1301px) {
+    .btn-adj {
+        font-size: 1.5rem;
+    }
+}
+
 @media screen and (max-width: 1000px) and (min-width: 600px){
     .header {
         background-image: url("img/headerjupiteripad.jpg");
@@ -248,6 +254,14 @@ body {
         background-image: url("img/headerjupitersm.jpg");
     }
 }
+
+/*
+@media only screen and (max-width: 400) {
+    .btn-adj {
+
+    }
+}
+*/
 
 .section-title {
     text-align: center;
@@ -322,6 +336,6 @@ body {
     width: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 130px;
+/*    margin-left: 130px;*/
     box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
 }
