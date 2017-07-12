@@ -245,10 +245,9 @@ body {
     }
 
     .title {
-    font-size: 4.4rem;
+        font-size: 4.4rem;
+    }
 }
-}
-
 
 /*
 @media only screen and (max-width: 400) {
@@ -264,7 +263,6 @@ body {
 }
 .section-title2 {
     padding-top: 60px;
-
     color: #677589;
 }
 .hr-adj {
@@ -327,13 +325,24 @@ body {
     width: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 20px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
+}
+@media (max-width: 992px) {
+    .circle-adj {
+        height: 120px;
+        width: 120pX;
+        margin-top: 20px;
+    }
+
+    .section-title2 {
+        padding-top: 10px;
+    }
 }
 @media screen and (max-width: 1000px) and (min-width: 600px) {
     .header {
         background-image: url("img/headerjupiteripad.jpg");
     }
+
     .section-3 {
         background-image: url("img/dipeshipad.jpg");
     }
@@ -342,6 +351,7 @@ body {
     .header {
         background-image: url("img/headerjupiterphone.jpg");
     }
+
     .section-3 {
         background-image: url("img/dipeshiphone.jpg");
     }
@@ -350,6 +360,7 @@ body {
     .header {
         background-image: url("img/headerjupitersm.jpg");
     }
+
     .section-3 {
         background-image: url("img/dipeshsm.jpg");
     }
