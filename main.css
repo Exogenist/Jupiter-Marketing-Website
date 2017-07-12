@@ -141,6 +141,10 @@ body {
     color: #8598b5;
     font-size: 2rem;
 }
+.sub-heading2 {
+    color: #8598b5;
+    font-size: 1.8rem;
+}
 .account-icon {
     padding-top: 30px;
     width: 200px;
@@ -258,6 +262,11 @@ body {
     text-transform: uppercase;
     color: #677589;
 }
+.section-title2 {
+    padding-top: 60px;
+
+    color: #677589;
+}
 .hr-adj {
     width: 100px;
 }
@@ -318,8 +327,7 @@ body {
     width: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
-    /*    margin-left: 130px;*/
-
+    padding-left: 20px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
 }
 @media screen and (max-width: 1000px) and (min-width: 600px) {
