@@ -48,7 +48,7 @@ $(document).ready(function () {
         }
     }(jQuery));
     $('.header, .section-3').parallax({
-        speed: 0.15
+        speed: 0.5
     });
     //-------------------------------------------------- THANK YOU HEATHER!! END
 
@@ -72,7 +72,7 @@ $(document).ready(function () {
         }
         $(".slideanim").each(function () {
             var pos = $(this).offset().top;
-            if (pos < scroll + 600) {
+            if (pos < scroll + 900) {
                 $(this).addClass("slide");
             }
         });
