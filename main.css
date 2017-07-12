@@ -100,12 +100,13 @@ body {
 }
 .header {
     /* The image used */
+
     background-image: url("img/headerjupiter.jpg");
-
     /* Full height */
-    height: 100%;
 
+    height: 100%;
     /* Create the parallax scrolling effect */
+
     background-attachment: fixed;
     background-position: center top;
     background-repeat: no-repeat;
@@ -129,7 +130,7 @@ body {
 .section-1 {
     margin-top: 20px;
     margin-bottom: 50px;
-    min-height:  400px;
+    min-height: 400px;
 }
 .heading {
     margin-top: 0px;
@@ -167,51 +168,50 @@ body {
     margin: auto;
     padding-bottom: 30px;
 }
-
 .left-align {
     text-align: right;
 }
-
-  .slideanim {visibility:hidden;}
-  .slide {
-      animation-name: slide;
-      -webkit-animation-name: slide;
-      animation-duration: 1s;
-      -webkit-animation-duration: 1s;
-      visibility: visible;
-  }
-  @keyframes slide {
+.slideanim {
+    visibility: hidden;
+}
+.slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide {
     0% {
-      opacity: 0;
-      transform: translateY(70%);
+        opacity: 0;
+        transform: translateY(70%);
     }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-  }
-  @-webkit-keyframes slide {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateY(70%);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: translateY(0%);
-    }
-  }
 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
 .logo-adj {
     height: 49px;
     padding-top: 2px;
     padding-right: 35px;
 }
-
 .nav-font-adj li a {
     text-transform: uppercase;
     font-size: 1.3rem
 }
-
 .btn-adj {
     font-size: 1.8rem;
     margin-top: 20px;
@@ -224,32 +224,37 @@ body {
     margin-left: 10px;
     margin-bottom: 190px;
 }
-
-@media (min-width: 1301px){
+@media (min-width: 1301px) {
     .btn-adj {
         margin-bottom: 340px;
     }
 }
-
-@media (max-width: 1301px) {
+@media (max-width: 500px) {
     .btn-adj {
         font-size: 1.5rem;
+        margin-left: 0px;
+        width: 140px;
     }
-}
 
-@media screen and (max-width: 1000px) and (min-width: 600px){
+    .header-content {
+        padding-top: 150px;
+    }
+
+    .title {
+    font-size: 4.4rem;
+}
+}
+@media screen and (max-width: 1000px) and (min-width: 600px) {
     .header {
         background-image: url("img/headerjupiteripad.jpg");
     }
 }
-
-@media screen and (max-width: 600px) and (min-width: 400px){
+@media screen and (max-width: 600px) and (min-width: 400px) {
     .header {
         background-image: url("img/headerjupiterphone.jpg");
     }
 }
-
-@media screen and (max-width: 400px) and (min-width: 0px){
+@media screen and (max-width: 400px) and (min-width: 0px) {
     .header {
         background-image: url("img/headerjupitersm.jpg");
     }
@@ -262,62 +267,53 @@ body {
     }
 }
 */
-
 .section-title {
     text-align: center;
     text-transform: uppercase;
     color: #677589;
 }
-
 .hr-adj {
     width: 100px;
-
 }
-
 .img-adj {
     margin-bottom: 30px;
 }
-
 .i-adj {
     color: #d5d9e0;
 }
-
 .cent {
     margin: auto;
     width: 300px;
 }
-
 .i-adj2 {
     color: #0b95e5;
 }
-
 .sect2-adj {
     margin-bottom: 40px;
     background-image:
 }
-
 .section-3 {
     /* The image used */
+
     background-image: url("img/stratbgbig.jpg");
-
     /* Full height */
-    min-height: 400px;
 
+    min-height: 400px;
     /* Create the parallax scrolling effect */
+
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-
     padding-bottom: 90px;
 }
 .strat-adj {
     margin-top: 90px;
     color: #ccdfff;
-/*    font-size: 2rem;*/
+    /*    font-size: 2rem;*/
+
     text-transform: uppercase;
 }
-
 .cont-adj p {
     color: #b9cbea;
 }
@@ -336,6 +332,7 @@ body {
     width: 200px;
     margin-top: 20px;
     margin-bottom: 20px;
-/*    margin-left: 130px;*/
+    /*    margin-left: 130px;*/
+
     box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
 }
