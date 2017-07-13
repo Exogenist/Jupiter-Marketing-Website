@@ -54,15 +54,10 @@ $(document).ready(function () {
              $('.section-5, .header, .section-3').parallax({
                 speed: 0.15
              });
-        } else {
-            $('.section-5, .header, .section-3').parallax({
-                speed: 0
-             });
         }
+        console.log(screenSize);
     }
-
-
-    console.log(screen.width);
+    setParallax();
 
     //-------------------------------------------------- THANK YOU HEATHER!! END
 
