@@ -444,3 +444,18 @@ body {
 .sect-5-txt-adj {
     color: white;
 }
+@media screen and (max-width: 1000px) and (min-width: 600px) {
+    .section-5 {
+        background-image: url(img/mtnipad.jpg);
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 400px) {
+    .section-5 {
+        background-image: url(img/mtnphone.jpg);
+    }
+}
+@media screen and (max-width: 400px) and (min-width: 0px) {
+    .section-5 {
+        background-image: url(img/mtnsm.jpg);
+    }
+}
