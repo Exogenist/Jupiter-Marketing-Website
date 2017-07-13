@@ -414,6 +414,15 @@ body {
     box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
     height: 300px;
 }
+
+@media (max-width: 600px) {
+    .tablet {
+        height: 450px;
+    }
+    .adj-fix {
+        height: 330px;
+    }
+}
 .tes-adj {
     text-align: left;
     text-transform: uppercase;
