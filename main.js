@@ -47,7 +47,7 @@ $(document).ready(function () {
             });
         };
     }(jQuery));
-    $('.header, .section-3').parallax({
+    $('.section-5, .header, .section-3').parallax({
         speed: 0.5
     });
     //-------------------------------------------------- THANK YOU HEATHER!! END
