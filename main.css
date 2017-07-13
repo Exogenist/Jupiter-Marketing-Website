@@ -415,8 +415,9 @@ body {
     height: 300px;
 }
 .tes-adj {
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     color: #677589;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    font-size: 2.5rem
 }
