@@ -421,3 +421,23 @@ body {
     margin-bottom: 30px;
     font-size: 2.5rem
 }
+.section-5 {
+        /* The image used */
+
+    background-image: url("img/mnt.jpg");
+    /* Full height */
+
+    min-height: 400px;
+    /* Create the parallax scrolling effect */
+
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 90px;
+}
+.sect-5-adj {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
