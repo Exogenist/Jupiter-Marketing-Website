@@ -45,7 +45,7 @@ $(document).ready(function () {
 
                 });
             });
-        }
+        };
     }(jQuery));
     $('.header, .section-3').parallax({
         speed: 0.5
@@ -72,7 +72,7 @@ $(document).ready(function () {
         }
         $(".slideanim").each(function () {
             var pos = $(this).offset().top;
-            if (pos < scroll + 900) {
+            if (pos < scroll + 850) {
                 $(this).addClass("slide");
             }
         });
