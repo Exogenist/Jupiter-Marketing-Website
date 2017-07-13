@@ -47,9 +47,23 @@ $(document).ready(function () {
             });
         };
     }(jQuery));
-    $('.section-5, .header, .section-3').parallax({
-        speed: 0.15
-    });
+
+    function setParallax() {
+        var screenSize = screen.width;
+        if(screenSize > 500) {
+             $('.section-5, .header, .section-3').parallax({
+                speed: 0.15
+             });
+        } else {
+            $('.section-5, .header, .section-3').parallax({
+                speed: 0
+             });
+        }
+    }
+
+
+    console.log(screen.width);
+
     //-------------------------------------------------- THANK YOU HEATHER!! END
 
     $(this).scrollTop(0);
