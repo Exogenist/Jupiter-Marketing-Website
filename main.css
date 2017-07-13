@@ -412,10 +412,11 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
-    border-radius: 9px;
+    height: 300px;
 }
 .tes-adj {
-    text-align: right;
+    text-align: center;
     text-transform: uppercase;
     color: #677589;
+    margin-bottom: 50px;
 }
