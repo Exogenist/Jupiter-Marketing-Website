@@ -166,7 +166,7 @@ body {
 .account-size {
     width: 230px;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .white-bck {
         background-color: rgb(68, 101, 155);
     }
@@ -395,28 +395,34 @@ body {
 @media screen and (max-width: 1000px) and (min-width: 600px) {
     .header {
         background-image: url("img/wasatchmtnipad.jpg");
+        background-attachment: scroll;
     }
 
     .section-3 {
         background-image: url("img/dipeshipad.jpg");
+        background-attachment: scroll;
     }
 }
 @media screen and (max-width: 600px) and (min-width: 400px) {
     .header {
         background-image: url("img/wasatchmtnphone.jpg");
+        background-attachment: scroll;
     }
 
     .section-3 {
         background-image: url("img/dipeshiphone.jpg");
+        background-attachment: scroll;
     }
 }
 @media screen and (max-width: 400px) and (min-width: 0px) {
     .header {
         background-image: url("img/wasatchmtnsm.jpg");
+        background-attachment: scroll;
     }
 
     .section-3 {
         background-image: url("img/dipeshsm.jpg");
+        background-attachment: scroll;
     }
 }
 
