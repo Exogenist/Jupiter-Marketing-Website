@@ -66,7 +66,7 @@ $(document).ready(function () {
     if (scroll !== 0) {
         $('.navbar-default').css("box-shadow", "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)");
         $('.nav-transition').css("height", "50px");
-        $('.navbar-default').css("background-color", "white");
+        $('.navbar-default').css("background-color", "#44659b");
     }
     $(window).scroll(function () {
         scroll = $(window).scrollTop();
@@ -76,7 +76,7 @@ $(document).ready(function () {
             $('.navbar-default').css("box-shadow", "0 3px 6px rgba(0,0,0,0.0), 0 3px 6px rgba(0,0,0,0.0)");
         } else {
             $('.nav-transition').css("height", "50px");
-            $('.navbar-default').css("background-color", "white");
+            $('.navbar-default').css("background-color", "#44659b");
             $('.navbar-default').css("box-shadow", "0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)");
         }
         $(".slideanim").each(function () {
