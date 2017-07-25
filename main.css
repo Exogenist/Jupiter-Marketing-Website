@@ -137,14 +137,12 @@ body {
 .header-content {
     max-width: 780px;
     text-align: center;
-    /*    padding-top: 250px;*/
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     top: 33%;
-    /*    margin: auto;*/
 }
 .section-1 {
     margin-top: 20px;
@@ -278,10 +276,6 @@ body {
         width: 140px;
     }
 
-    .header-content {
-        padding-top: 30vh;
-    }
-
     .title {
         font-size: 4.4rem;
     }
@@ -308,6 +302,10 @@ body {
     width: 100px;
     border-top: 2px solid #0b95e5;
     margin-top: 50px;
+}
+.hr-adj2 {
+    width: 100px;
+    border-top: 2px solid #0b95e5;
 }
 .img-adj {
     margin-bottom: 30px;
@@ -461,7 +459,7 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
 /*    box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);*/
-    max-height: 300px;
+/*    max-height: 300px;*/
 }
 @media (max-width: 600px) {
     .tablet {
@@ -485,19 +483,20 @@ body {
     background-image: url("img/mnt.jpg");
     /* Full height */
 
-    min-height: 400px;
+    min-height: 100px;
     /* Create the parallax scrolling effect */
 
     background-attachment: fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 90px;
+/*    padding-bottom: 90px;*/
 }
 .sect-5-adj {
-    color: white;
+    color: #353844;
     text-transform: uppercase;
-    padding-top: 70px;
+    font-weight: 800;
+
 }
 .sect-5-txt-adj {
     color: white;
@@ -532,4 +531,8 @@ body {
 }
 .test-adj {
     padding-bottom: 50px;
+}
+.section-6 {
+    background-color: #353844;
+    height: 500px;
 }
