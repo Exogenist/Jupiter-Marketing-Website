@@ -158,7 +158,9 @@ body {
 }
 .sub-heading {
     color: #8598b5;
-    font-size: 2rem;
+    font-size: 2.4rem;
+    border-left: solid 5px #0b95e5;
+    padding-left: 7px;
 }
 .sub-heading2 {
     color: #8598b5;
@@ -511,4 +513,7 @@ body {
 }
 .about-adj p {
     text-align: center;
+}
+.cont {
+    max-width: 1000px;
 }
