@@ -148,7 +148,7 @@ body {
 }
 .section-1 {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
     min-height: 300px;
 }
 .heading {
@@ -180,9 +180,11 @@ body {
     }
 }
 .section-2 {
-    background-color: #eaf2f4;
+    background-color: #fff;
+/*
     padding-top: 50px;
     padding-bottom: 50px;
+*/
 }
 .dimention {
     margin-top: 30px;
