@@ -50,7 +50,7 @@ $(document).ready(function () {
 
     function setParallax() {
         var screenSize = screen.width;
-        if(screenSize > 768) {
+        if(screenSize > 1280) {
              $('.section-5, .header, .section-3').parallax({
                 speed: 0.15
              });
