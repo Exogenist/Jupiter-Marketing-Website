@@ -149,7 +149,7 @@ body {
 .section-1 {
     margin-top: 20px;
     margin-bottom: 50px;
-    min-height: 400px;
+    min-height: 300px;
 }
 .heading {
     margin-top: 0px;
@@ -285,6 +285,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     color: #677589;
+    font-weight: 300;
 }
 .section-title2 {
     padding-top: 60px;
@@ -292,6 +293,8 @@ body {
 }
 .hr-adj {
     width: 100px;
+    border-top: 2px solid #0b95e5;
+    margin-top: 50px;
 }
 .img-adj {
     margin-bottom: 30px;
@@ -501,4 +504,11 @@ body {
         background-image: url(img/mtnsm.jpg);
         background-attachment: scroll;
     }
+}
+.about-adj {
+    max-width: 900px;
+    margin: auto;
+}
+.about-adj p {
+    text-align: center;
 }
