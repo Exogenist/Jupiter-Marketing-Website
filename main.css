@@ -149,7 +149,7 @@ body {
 .section-1 {
     margin-top: 20px;
     margin-bottom: 0px;
-    min-height: 300px;
+    min-height: 250px;
 }
 .heading {
     margin-top: 0px;
@@ -181,10 +181,8 @@ body {
 }
 .section-2 {
     background-color: #fff;
-/*
-    padding-top: 50px;
+/*    padding-top: 50px;*/
     padding-bottom: 50px;
-*/
 }
 .dimention {
     margin-top: 30px;
@@ -453,16 +451,17 @@ body {
     background-color: #fff;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: #f9f9f9;
 }
 .space {
     margin-top: 15px;
 }
 .tablet {
-    background-color: #f9f9f9;
+/*    background-color: #f9f9f9;*/
     padding-bottom: 10px;
     padding-top: 10px;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);
-    height: 300px;
+/*    box-shadow: 3px 3px 4px rgba(0, 0, 0, .3);*/
+    max-height: 300px;
 }
 @media (max-width: 600px) {
     .tablet {
@@ -470,7 +469,7 @@ body {
     }
 
     .adj-fix {
-        height: 330px;
+        max-height: 300px;
     }
 }
 .tes-adj {
@@ -530,4 +529,7 @@ body {
 }
 .cont {
     max-width: 1000px;
+}
+.test-adj {
+    padding-bottom: 50px;
 }
