@@ -6,7 +6,7 @@ Commision website design for a client.
 - [x] add testimonials section. 
 - [ ] add contact Us section.
 - [x] Turn into wordpress theme and use wordpress cms.
-- [x]
+- [x] Add lifestyle photos
 
 ### Author
 Swainson Holness
