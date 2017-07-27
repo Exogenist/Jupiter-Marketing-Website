@@ -5,7 +5,8 @@ Commision website design for a client.
 - [x] add strategy section. 
 - [x] add testimonials section. 
 - [ ] add contact Us section.
-- [ ] Turn into wordpress theme and use wordpress cms.
+- [x] Turn into wordpress theme and use wordpress cms.
+- [x]
 
 ### Author
 Swainson Holness
