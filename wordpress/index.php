@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+
+    <title>Jupiter Sales & Marketing</title>
+    <meta name='description' content='description goes here'>
+
+    <!-- bootstrap -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u' crossorigin='anonymous'>
+
+    <!--main css-->
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/main.css" rel="stylesheet">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,800" rel="stylesheet">
+
+    <!--animate css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!--Image hover-->
+    <link href="<?php echo get_bloginfo('template_directory'); ?>/set1.css" rel="stylesheet">
+</head>
+
+<body class="fade-in">
+    <!--NAV-->
+    <nav class="navbar navbar-default nav-transition navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="logo-adj" src="<?php echo get_bloginfo('template_directory'); ?>/img/logoJupiterWhite.svg" alt="LOGO"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse white-bck bck2" id="bs-example-navbar-collapse-1">
+
+                <ul class="nav navbar-nav navbar-right nav-font-adj">
+                    <li class="active"><a href="#">home<span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">strategy</a></li>
+                    <li><a href="#">testimonials</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!--Header-->
+    <div class="header">
+        <div class="header-content animated fadeInDown">
+            <h1 class="title">We Know Retail</h1>
+            <h4 class="slogan">Jupiter Sales and Marketing, JSM, provides access to the final storeshelf.</h4>
+            <button type="button" class="btn btn-primary btn-adj btn-adj2">Learn More</button>
+            <button type="button" class="btn btn-primary btn-adj"> Go to Market </button>
+        </div>
+    </div>
+
+    <!--SECTION 1 ABOUT-->
+    <div class="container section-1">
+        <div class="row">
+            <hr class="slideanim hr-adj">
+            <h1 class="section-title slideanim"> Let us take you to market</h1>
+            <div class="about-adj slideanim container">
+                <p>How irous you antial subous, and semiest. Illess disty my too new. Irable dised iles antied get, who ened. I but be overtion is. Now transful midness enion foreest iled I misen. Antiness I unty enen a. I inly semious diser, you iming. Get subty who let enal foreity. Misable overer an ilen can imer interless how my. Midity interer out inly I but. New a mision a emic I. Ention at I nonion a. Overer subes subty new how antied. An subless emed how you underion. Forement underer forees you antiion suber, ening. Mided mides inful disful who preal enity. I you deable and an unes out inless. Foreous semiment subic get if, superion nonity misty. But foreer who, a I.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--SECTION 2 ABOUT-->
+    <div class="section-2 ">
+
+        <!--
+      <div class="container cont">
+          <h5 class="sub-heading ">Retailers we work with</h5>
+      </div>
+-->
+
+        <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:100px;overflow:hidden;visibility:hidden;">
+            <!-- Loading Screen -->
+            <div data-u="loading" style="position:absolute;top:0px;left:0px;background:url('img/loading.gif') no-repeat 50% 50%;background-color:rgba(0, 0, 0, 0.7);"></div>
+            <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:100px;overflow:hidden;">
+                <div>
+                    <img data-u="image" src="<?php echo get_bloginfo('template_directory'); ?>/img/svg/target.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="<?php echo get_bloginfo('template_directory'); ?>/img/svg/bath.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="<?php echo get_bloginfo('template_directory'); ?>/img/svg/walmart.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="<?php echo get_bloginfo('template_directory'); ?>/img/svg/macys.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="<?php echo get_bloginfo('template_directory'); ?>/img/svg/pier1.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="<?php echo get_bloginfo('template_directory'); ?>/img/svg/khols.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="<?php echo get_bloginfo('template_directory'); ?>/img/svg/wholefoods.png" />
+                </div>
+                <div>
+                    <img data-u="image" src="<?php echo get_bloginfo('template_directory'); ?>/img/svg/sprout.png" />
+                </div>
+                <a data-u="any" href="https://www.jssor.com" style="display:none">js slider</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--SECTION 3 STRATEGY-->
+    <div class="section-3">
+        <div class="strat-title">
+            <h1 class="sect-title-adj slideanim"><span><i class="fa fa-globe" aria-hidden="true"></i></span> Strategy</h1>
+        </div>
+        <div class="container slideanim">
+            <div class="row">
+                <div class="col-md-4 cont-adj">
+                    <h3 class="strat-adj">market solutions</h3>
+                    <p>
+                        - Marketing solutions include SWOT analyses, market research, go-to-market strategy, pricing, retail shelf space and EDI, replenishment programs, product roadmaps, niche product placement, ROI analysis of marketing, development of compelling product packaging and plan-o-grams, point of purchase displays.
+                    </p>
+                </div>
+                <div class="col-md-4 cont-adj">
+                    <h3 class="strat-adj">sales solutions</h3>
+                    <p>
+                        - Sales solutions include overall analysis of sales strategy, streamlining sales cycles, hiring and training internal sales teams as well as leveraging a national contract sales force (manufacturer’s representatives) of 40 in key markets to drive successful entrée of new products into major retail distribution channels, and tracking / reporting of sales metrics (velocity, sell-through) using Retail-Links.
+                    </p>
+                </div>
+                <div class="col-md-4 cont-adj">
+                    <h3 class="strat-adj">operational solutions</h3>
+                    <p>
+                        - Operational solutions include consulting with manufacturers in P&L analysis, materials sourcing, and supply chain cost reduction.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SECTION 4-->
+    <div class="">
+        <div class="container slideanim">
+            <div class="row test-adj">
+                <div class="col-xs-3">
+                    <img src="<?php echo get_bloginfo('template_directory'); ?>/img/download.png" class="img-circle circle-adj" alt="">
+                </div>
+                <div class="col-xs-9">
+                    <h1 class="section-title2">Chris Rebsamen - President</h1>
+                    <h5 class="sub-heading2 ">25 years leading successful sales teams + proven success in growing strategic accounts, revenue base, and profitability. </h5>
+                    <button type="button" class="btn btn-primary btn-adj3">LinkedIn</button>
+                </div>
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="container slideanim">
+                <div class="row">
+                    <div class="col-md-6 tablet adj-fix">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/26424a5.jpg" class="media-object" style="width:60px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="">Frank Weston</a></h4>
+                                <p>President & COOatInsta-Fire Inc</p>
+                            </div>
+                        </div>
+                        <p class="space">Christopher and Jupiter Sales and Marketing is very detail oriented when it comes to completion of paper work, and completing the sale. Christopher increased our retail locations more than 50% and got us into locations that were previously unresponsive. Christopher and his team have a can do attitude and a never quit spirit. Just what you need to push your company to the next level.</p>
+                    </div>
+                    <div class="col-md-6 tablet">
+                        <div class="media">
+                            <div class="media-left">
+                                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/AAEAAQAAAAAAAAmoAAAAJGUxYzYzNzcxLTYyYmYtNDc2Yy05MWJkLTRlMWVjZTQwMWU1Mw.jpg" class="media-object" style="width:60px">
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading"><a href="">Jeff Carpenter</a></h4>
+                                <p>SVP Creating strategic alliances with FMCG, RTE, Dairy and Meat/Poultry Customers</p>
+                            </div>
+                        </div>
+                        <p class="space">Chris Rebsamen and his company Jupiter Sales have represented our comp any, Blue Matrix Labs for over a year now. Chris has created a tremendous network of sales/marketing professionals that have represented our various product lines through account and geographic expertise. They are a strong group that Iwould recommend if you are looking to efficiently manage a large nucleus of accounts or geography. Chris works extremely hard and looks at all channels for a fit for your products. Whether its pet products, general merchandise, food or crafts, Chris and his network are a solid choice.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--SECTION 6-->
+    <div class=" slideanim">
+        <div class="grid">
+           <h1 class="sect-5-adj">We specialize in</h1>
+           <hr class="hr-adj2">
+            <figure class="effect-lily">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/lawn.jpg" alt="img12" />
+                <figcaption>
+                    <div>
+                        <h2>Lawn <span>& Garden</span></h2>
+                        <p>Represent manufacturers of lawn and garden products</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="effect-lily">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/electric.jpg" alt="img1" />
+                <figcaption>
+                    <div>
+                        <h2>Consumer <span>Electronics</span></h2>
+                        <p>We work to get consumer electronics into stores</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="effect-lily">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/house.jpg" alt="img12" />
+                <figcaption>
+                    <div>
+                        <h2>House <span>wares</span></h2>
+                        <p>We specialize with home products</p>
+                    </div>
+                </figcaption>
+            </figure>
+            <figure class="effect-lily">
+                <img src="<?php echo get_bloginfo('template_directory'); ?>/img/groceries.jpg" alt="img1" />
+                <figcaption>
+                    <div>
+                        <h2>Beverage <span>Products</span></h2>
+                        <p>We also represent natural/organic food and beverage products</p>
+                    </div>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+    
+
+    			
+
+    <!--jquery-->
+    <script src='https://code.jquery.com/jquery-3.1.1.js' integrity='sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=' crossorigin='anonymous'></script>
+
+    <!-- #region Jssor Slider Begin -->
+    <!-- Generator: Jssor Slider Maker -->
+    <!-- Source: https://www.jssor.com -->
+    <script src="<?php echo get_bloginfo('template_directory'); ?>/slider.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+                $AutoPlay: 1,
+                $Idle: 0,
+                $SlideDuration: 5000,
+                $SlideEasing: $Jease$.$Linear,
+                $PauseOnHover: 4,
+                $SlideWidth: 170,
+                $Cols: 7
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 980);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                } else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+
+    </script>
+    <script type="text/javascript">
+        jssor_1_slider_init();
+
+    </script>
+    <!-- #endregion Jssor Slider End -->
+
+    <!-- bootstrap js -->
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous'></script>
+
+    <!--main js-->
+    <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/main.js"></script>
+</body>
+
+</html>
+
+
+<!--NOTES AND JUNK CODE-->
