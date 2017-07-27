@@ -4,7 +4,7 @@ Commision website design for a client.
 ## TO DO:
 - [x] add strategy section. 
 - [x] add testimonials section. 
-- [ ] add contact Us section.
+- [ ] add contact Us section - 50% 
 - [x] Turn into wordpress theme and use wordpress cms.
 - [x] Add lifestyle photos
 
