@@ -9,3 +9,5 @@ To upload external links into the file system use:
 ```PHP
 <?php echo get_bloginfo('template_directory'); ?>
 ```
+
+For example
