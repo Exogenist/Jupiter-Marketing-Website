@@ -10,4 +10,7 @@ To upload external links into the file system use:
 <?php echo get_bloginfo('template_directory'); ?>
 ```
 
-For example
+For example, if one wants to link the file style.css then one would use, 
+```PHP
+<link href="<?php echo get_bloginfo('template_directory'); ?>/blog.css" rel="stylesheet">
+```
